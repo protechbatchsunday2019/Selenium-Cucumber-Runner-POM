@@ -1,0 +1,60 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-05T03:07:26.697Z",
+        "line": 6,
+        "name": "Login Form is avaiable",
+        "description": "",
+        "id": "all-login-test-features;login-form-is-avaiable",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4040000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I browse to Mct webstie",
+            "match": {
+              "location": "mct.steps.definations.LoginTestSteps.i_am_mct_webstie()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 56000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Click the login link",
+            "match": {
+              "location": "mct.steps.definations.LoginTestSteps.i_use_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 192000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Expect a complete Login Form",
+            "match": {
+              "location": "mct.steps.definations.LoginTestSteps.i_expect_a_complete_login_form()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "All Login Test Features",
+    "description": "\t\tAs a User I Can login to the Multicart Webstie ",
+    "id": "all-login-test-features",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/All-Test-Features/LoginTest.feature",
+    "tags": []
+  }
+]
